@@ -1,0 +1,31 @@
+
+// buttons
+
+.button,
+a.button,
+button,
+[type=button],
+[type=submit] {
+  display: inline-block;
+  background: $secondary;
+  border: 1px solid #1E6BD6;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  border-radius: 0.3rem;
+  margin: .25rem 0;
+  vertical-align: middle;
+  line-height: 1;
+  overflow: visible;
+  white-space: nowrap;
+  cursor: pointer;
+  
+  &:hover {
+    background: transparent;
+    color: #1E6BD6;
+    border: 1px solid #1E6BD6;
+  }
+  
+}
