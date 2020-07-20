@@ -5,11 +5,7 @@ different _s
 
 Original: https://github.com/Automattic/_s/blob/master/README.md
 
-* change hole sass structure
-
-html structure:
-
-
+### html structure:
 
 ```html
 <div id="page" class="site">
@@ -61,6 +57,38 @@ html structure:
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+```
+
+### sass structure
+
+```sass
+@charset 'utf-8';
+
+// abstracts
+@import 'abstracts/variables'; // colors
+@import 'abstracts/mixins'; //not used
+
+// base
+@import 'base/ecologize'; // variation of normalize
+@import 'base/typo'; // typography
+
+// components
+@import 'components/button';
+@import 'components/helpers';
+@import 'components/blockquote';
+
+// layout
+@import 'layout/navigation';
+@import 'layout/layout';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/sidebar';
+@import 'layout/footer';
+
+// shame
+@import 'shame/shame'; // wordpress screen reader
+
+// pages
 ```
 
 Good luck!
