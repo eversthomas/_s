@@ -11,7 +11,7 @@ html structure:
 
 
 
-´´´
+```
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"></a>
 	<header id="masthead" class="site-header">
@@ -52,6 +52,6 @@ html structure:
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
-´´´
+```
 
 Good luck!
