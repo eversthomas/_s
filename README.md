@@ -9,6 +9,9 @@ Original: https://github.com/Automattic/_s/blob/master/README.md
 
 html structure:
 
+
+
+'''
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"></a>
 	<header id="masthead" class="site-header">
